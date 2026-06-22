@@ -1,0 +1,15 @@
+{
+  "name": "calculator-benchmark-runner",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "install:all": "node scripts/run-benchmarks.mjs install",
+    "build:all": "node scripts/run-benchmarks.mjs build",
+    "test:all": "node scripts/run-benchmarks.mjs test",
+    "lint:all": "node scripts/run-benchmarks.mjs lint",
+    "validate": "node scripts/run-benchmarks.mjs validate",
+    "dev": "node scripts/run-benchmarks.mjs dev",
+    "start": "node scripts/run-benchmarks.mjs all"
+  }
+}
